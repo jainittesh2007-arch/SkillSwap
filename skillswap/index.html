@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkillSwap: learn a trade, get paid for it</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top"><strong class="logo">SkillSwap</strong><nav><a href="#board">Gig board</a><a href="#mentors">Mentors</a><a href="#portfolio">My portfolio</a><a href="#impact">Impact</a></nav></header>
+<main>
+<section class="hero">
+  <h1>Left school? Your first paid gig is closer than you think.</h1>
+  <p>Pick a skill and your neighbourhood. We show paid tasks from nearby businesses and a verified mentor who will walk you through them.</p>
+  <div class="picker">
+    <label>I want to learn <select id="skill"><option value="">any skill</option></select></label>
+    <label>I live in <select id="area"><option value="">anywhere</option></select></label>
+  </div>
+</section>
+<section id="board"><h2>Paid gigs near you</h2><div id="gigs" class="list"></div></section>
+<section id="mentors"><h2>Verified mentors</h2><div id="mentorList" class="list"></div></section>
+<section id="portfolio"><h2>Your portfolio</h2>
+  <div class="stats"><div><b id="earned">₹0</b>earned</div><div><b id="count">0</b>gigs done</div><div><b id="level">Getting started</b>badge</div></div>
+  <ul id="done" class="done"><li class="empty">Accept a gig above to start your portfolio.</li></ul>
+</section>
+<section id="impact"><h2>Why it matters</h2>
+  <p>SkillSwap supports <b>SDG 4, Quality Education</b>, by teaching through real work, and <b>SDG 8, Decent Work and Economic Growth</b>, by turning small tasks into income and proof of skill for young people without formal qualifications.</p>
+</section>
+</main>
+<footer>SkillSwap prototype. Open source under the MIT license.</footer>
+<script src="src/data.js"></script>
+<script src="src/matching.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

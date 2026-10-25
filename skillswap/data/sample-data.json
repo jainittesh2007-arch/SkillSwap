@@ -1,0 +1,139 @@
+{
+  "areas": {
+    "T. Nagar": [
+      13.0418,
+      80.2341
+    ],
+    "Adyar": [
+      13.0012,
+      80.2565
+    ],
+    "Velachery": [
+      12.9815,
+      80.218
+    ],
+    "Tambaram": [
+      12.9249,
+      80.1
+    ],
+    "Anna Nagar": [
+      13.085,
+      80.2101
+    ]
+  },
+  "skills": [
+    "Tailoring",
+    "Digital marketing",
+    "Electrical basics",
+    "Baking",
+    "Phone repair",
+    "Data entry"
+  ],
+  "mentors": [
+    {
+      "id": "m1",
+      "name": "Lakshmi R.",
+      "skill": "Tailoring",
+      "area": "T. Nagar",
+      "years": 12,
+      "verified": true
+    },
+    {
+      "id": "m2",
+      "name": "Imran S.",
+      "skill": "Phone repair",
+      "area": "Velachery",
+      "years": 8,
+      "verified": true
+    },
+    {
+      "id": "m3",
+      "name": "Priya K.",
+      "skill": "Digital marketing",
+      "area": "Anna Nagar",
+      "years": 6,
+      "verified": true
+    },
+    {
+      "id": "m4",
+      "name": "Suresh M.",
+      "skill": "Electrical basics",
+      "area": "Tambaram",
+      "years": 15,
+      "verified": true
+    },
+    {
+      "id": "m5",
+      "name": "Unverified Demo",
+      "skill": "Baking",
+      "area": "Adyar",
+      "years": 2,
+      "verified": false
+    }
+  ],
+  "gigs": [
+    {
+      "id": "g1",
+      "title": "Hem 20 school uniforms",
+      "business": "Sri Tailors",
+      "skill": "Tailoring",
+      "area": "T. Nagar",
+      "pay": 600,
+      "hours": 4
+    },
+    {
+      "id": "g2",
+      "title": "Replace 5 phone screens (supervised)",
+      "business": "Mobile Hub",
+      "skill": "Phone repair",
+      "area": "Velachery",
+      "pay": 900,
+      "hours": 5
+    },
+    {
+      "id": "g3",
+      "title": "Design 3 Instagram posts",
+      "business": "Cafe Murugan",
+      "skill": "Digital marketing",
+      "area": "Adyar",
+      "pay": 750,
+      "hours": 3
+    },
+    {
+      "id": "g4",
+      "title": "Wire a shop display light board",
+      "business": "Bright Electricals",
+      "skill": "Electrical basics",
+      "area": "Tambaram",
+      "pay": 1100,
+      "hours": 6
+    },
+    {
+      "id": "g5",
+      "title": "Enter 150 invoices into a sheet",
+      "business": "Anna Traders",
+      "skill": "Data entry",
+      "area": "Anna Nagar",
+      "pay": 500,
+      "hours": 3
+    },
+    {
+      "id": "g6",
+      "title": "Bake 40 festival cookies",
+      "business": "Sweet Corner",
+      "skill": "Baking",
+      "area": "Adyar",
+      "pay": 800,
+      "hours": 4
+    },
+    {
+      "id": "g7",
+      "title": "Write 10 WhatsApp catalogue captions",
+      "business": "Kala Boutique",
+      "skill": "Digital marketing",
+      "area": "T. Nagar",
+      "pay": 450,
+      "hours": 2
+    }
+  ]
+}

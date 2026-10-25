@@ -1,0 +1,2 @@
+{ "name": "skillswap", "version": "1.0.0", "description": "Peer mentorship and paid micro-gigs for young people who left formal education", "license": "MIT",
+  "scripts": { "test": "node --test tests/*.test.js", "start": "npx --yes serve ." } }
